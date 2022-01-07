@@ -61,7 +61,7 @@ rule C_STATIC_LIBRARY_LINKER__native_app_glue_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/bytedance/Library/Android/sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S/Users/bytedance/code/android/ndk-samples/native-activity/app/src/main/cpp -B/Users/bytedance/code/android/ndk-samples/native-activity/app/.cxx/cmake/debug/arm64-v8a
+  command = /Users/bytedance/Library/Android/sdk/cmake/3.18.1/bin/cmake --regenerate-during-build -S/Users/bytedance/code/android/native_actvity_test/app/src/main/cpp -B/Users/bytedance/code/android/native_actvity_test/app/.cxx/cmake/debug/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

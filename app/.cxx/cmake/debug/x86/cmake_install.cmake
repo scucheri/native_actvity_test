@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bytedance/code/android/ndk-samples/native-activity/app/src/main/cpp
+# Install script for directory: /Users/bytedance/code/android/native_actvity_test/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bytedance/code/android/ndk-samples/native-activity/app/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bytedance/code/android/native_actvity_test/app/.cxx/cmake/debug/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
